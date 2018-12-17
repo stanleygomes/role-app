@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-navbar>
+        <ion-buttons left start>
+            <button ion-button icon-only menuToggle (click)="openMenu()">
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title>Login</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="login">
+
+    <ion-list class="text-center margin-top-30" padding>
+
+        <img src="assets/img/icon.png" class="logo margin-top-50 margin-bottom-50"/>
+
+        <button (click)="googleLogin()" ion-button block large class="margin-top-30" color="google">
+            <ion-icon name="google"></ion-icon>
+            GOOGLE
+        </button>
+
+        <!--
+        <ion-grid class="margin-top-30">
+            <ion-row class="margin-top-30">
+                <ion-col>
+                    <button ion-button block large color="google">
+                        <ion-icon name="google"></ion-icon>
+                        GOOGLE
+                    </button>
+                </ion-col>
+                <ion-col>
+                    <button ion-button block large color="facebook">
+                        <ion-icon name="facebook"></ion-icon>
+                        FACEBOOK
+                    </button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+        -->
+
+    </ion-list>
+
+</ion-content>

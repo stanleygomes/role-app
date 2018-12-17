@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-buttons left start>
+            <button ion-button icon-only menuToggle (click)="openMenu()">
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title>Sobre</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+	<ion-list class="text-center about" padding>
+
+		<img src="assets/img/icon.png" class="logo margin-top-30"/>
+
+		<h1 class="margin-top-30">Rolê App</h1>
+        <p>Versão 1.1</p>
+        <p>Dados de locais são providos pela API Google Places.</p>
+        <p>Estes dados são de propriedade e seguem as políticas e termos de privacidade de Google Inc.</p>
+		<p>O aplicativo Rolê App apenas organiza e apresenta estas informações para oferecer uma nova experiência ao usuário.</p>
+
+        <button ion-button color="primary" class="margin-top-30" (click)="openPage(feedback)">ENVIAR FEEDBACK</button>
+
+	</ion-list>
+
+</ion-content>

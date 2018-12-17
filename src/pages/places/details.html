@@ -1,0 +1,128 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>Detalhes</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="placesdetails">
+
+    <ion-slides class="slider" *ngIf="place && place.photos && place.photos.length" pager [options]="slideOptions">
+        <ion-slide *ngFor="let photo of place.photos">
+            <img class="image" src="{{ 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=' + photo.photo_reference + '&key=AIzaSyA99grH5GY84k41sg2HeVh4bSfyMk1lXEk' }}"/>
+        </ion-slide>
+    </ion-slides>
+
+    <ion-grid *ngIf="place">
+        <ion-row>
+            <ion-col width-75>
+                <h5>{{ place.name }}</h5>
+                <p color="orange" *ngIf="place.rating">
+                    {{ place.rating }}
+                    <ion-icon *ngFor="let i of [1,2,3,4,5]" color="{{ place.ratingRound >= i ? 'orange' : 'grey'}}" name="star" class="icon-min"></ion-icon>
+                    <span *ngIf="place.reviews"> {{ place.reviews.length }} avaliações</span>
+                </p>
+            </ion-col>
+            <ion-col width-25>
+                <ion-icon color="grey" class="float-right margin-top-15" name="share" (click)="share(place.url)"></ion-icon>
+                <ion-icon color="grey" class="float-right margin-top-15 margin-right-15" name="{{ isFavorite ? 'heart' : 'heart-outline' }}" (click)="favorite(place)"></ion-icon>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <ion-grid *ngIf="place">
+        <ion-row>
+            <ion-col *ngIf="place.directions">
+                <a class="plainText" href="http://{{ place.directions }}">
+                    <ion-row>
+                        <ion-icon color="grey" name="navigate" class="icon margin-center"></ion-icon>
+                    </ion-row>
+                    <ion-row text-center>
+                        <strong class="full-width" color="grey">COMO CHEGAR</strong>
+                    </ion-row>
+                </a>
+            </ion-col>
+            <ion-col *ngIf="place.formatted_phone_number">
+                <a class="plainText" href="tel:{{ place.formatted_phone_number }}">
+                    <ion-row>
+                        <ion-icon color="grey" name="call" class="icon margin-center"></ion-icon>
+                    </ion-row>
+                    <ion-row text-center>
+                        <strong class="full-width" color="grey">LIGAR</strong>
+                    </ion-row>
+                </a>
+            </ion-col>
+            <ion-col *ngIf="place.website && place.website != ''">
+                <a class="plainText" href="{{ place.website }}">
+                    <ion-row>
+                        <ion-icon color="grey" name="globe" class="icon margin-center"></ion-icon>
+                    </ion-row>
+                    <ion-row text-center>
+                        <strong class="full-width" color="grey">SITE</strong>
+                    </ion-row>
+                </a>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <div #map id="map"></div>
+
+    <ion-list *ngIf="place">
+        <ion-item class="item-text-wrap">
+            <ion-icon color="grey" name="pin" item-left></ion-icon>
+            <a class="plainText" href="http://{{ place.directions }}">
+                <span color="grey" class="item-text-wrap">{{ place.formatted_address }}</span>
+            </a>
+        </ion-item>
+        <ion-item *ngIf="place.opening_hours">
+            <ion-icon name="time" item-left color="{{ !place.opening_hours.open_now ? 'danger' : 'green' }}"></ion-icon>
+            <span class="full-width" color="{{ !place.opening_hours.open_now ? 'danger' : 'green' }}"><strong>{{ !place.opening_hours.open_now ? 'Fechado' : 'Aberto' }} agora</strong></span>
+            <span color="grey" *ngIf="place.opening_hours.weekday_text" class="full-width margin-top-15">
+                <span *ngFor="let item of place.opening_hours.weekday_text"><br>{{ item }} </span>
+            </span>
+        </ion-item>
+        <ion-item *ngIf="place.website && place.website != ''">
+            <ion-icon color="grey" name="globe" item-left></ion-icon>
+            <a class="plainText" href="{{ place.website }}">
+                <span color="grey">{{ place.website }}</span>
+            </a>
+        </ion-item>
+        <ion-item *ngIf="place.formatted_phone_number && place.formatted_phone_number != ''">
+            <ion-icon color="grey" name="call" item-left></ion-icon>
+            <a class="plainText" href="tel:{{ place.formatted_phone_number }}">
+                <span color="grey">{{ place.formatted_phone_number }}</span>
+            </a>
+        </ion-item>
+    </ion-list>
+
+    <ion-list *ngIf="place">
+        <ion-list-header>
+            <strong>AVALIAÇÕES</strong>
+        </ion-list-header>
+        <ion-item *ngFor="let review of place.reviews" class="item-text-wrap">
+            <!--
+            <ion-avatar item-left>
+                <img src="assets/img/profile-default-blue.png"/>
+            </ion-avatar>
+            -->
+            <h2 color="black" class="item-text-wrap"><strong>{{ review.author_name }}</strong></h2>
+            <p color="grey" class="item-text-wrap">
+                <ion-icon *ngFor="let i of [1,2,3,4,5]" color="{{ review.rating >= i ? 'orange' : 'grey'}}" name="star" class="icon-min"></ion-icon>
+            </p>
+            <p color="grey" class="item-text-wrap">{{ review.relative_time_description }}</p>
+            <p color="grey" class="item-text-wrap">{{ review.text }}</p>
+        </ion-item>
+    </ion-list>
+
+    <ion-list>
+        <ion-list-header>
+            <strong>DISCLAMER</strong>
+        </ion-list-header>
+        <ion-item>
+            <p class="item-text-wrap" color="grey">Dados de locais são providos pela API Google Places.</p>
+            <p class="item-text-wrap" color="grey">Estes dados são de propriedade e seguem as políticas e termos de privacidade de Google Inc.</p>
+            <p class="item-text-wrap" color="grey">O layout desta página segue os padrões de design observados no Google Maps e baseado nos padrões Ionic Components.</p>
+            <p class="item-text-wrap" color="grey">O aplicativo Rolê App apenas organiza e apresenta estas informações para oferecer uma nova experiência ao usuário.</p>
+        </ion-item>
+    </ion-list>
+
+</ion-content>

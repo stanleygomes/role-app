@@ -1,0 +1,12 @@
+{
+	"name": "keru",
+	"app_id": "",
+	"v2": true,
+	"typescript": true,
+	"proxies": [
+		{
+			"path": "/messages",
+			"proxyUrl": "https://api.mailgun.net/v3/sandboxb87ef8e60bf04d6f9a590e40c4a4b758.mailgun.org"
+		}
+	]
+}

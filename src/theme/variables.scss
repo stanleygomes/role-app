@@ -1,0 +1,279 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/v2/theming/
+$font-path: "../assets/fonts";
+
+@import "ionic.globals";
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:    #387ef5,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222,
+  white:      #fff,
+  grey:       #777,
+  orange:     #ea8213,
+  yellow:     #fac12f,
+  green:      #8BC34A,
+  facebook:   #507cc0,
+  google:     #df4930
+);
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/v2/ionicons/
+
+@import "ionicons";
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";
+
+// http://ionicframework.com/docs/v2/theming/
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+a{text-decoration:none}
+.full-width{width:100%}
+.margin-center{margin-left:auto;margin-right:auto}
+.text-center{text-align:center}
+.margin-top-15{margin-top:15px}
+.margin-bottom-15{margin-bottom:15px}
+.margin-right-15{margin-right:15px}
+.margin-top-30{margin-top:30px}
+.margin-bottom-30{margin-bottom:30px}
+.margin-top-50{margin-top:50px}
+.margin-bottom-50{margin-bottom:50px}
+.padding-30{padding:30px 0}
+.padding-15{padding:15px 0}
+.no-shadow{box-shadow:none !important}
+.no-border{border:none}
+.hidden{display:none}
+.border-white{border:2px solid #fff}
+.float-right{float:right}
+.float-left{float:left}
+.item-text-wrap{white-space:normal;word-wrap:break-word;word-break:break-all}
+.circle{border-radius:100% !important}
+
+.login{
+    background:#f2f2f2;
+    background:url(../assets/img/login.jpg) no-repeat center;
+    background-size:cover;
+
+    .top{padding:50px 0}
+    .logo{width:100%;max-width:100px}
+    button{box-shadow:none}
+}
+
+.card-background-page {
+    .no-border .item-inner{
+        border:0 !important;
+    }
+    ion-card {
+        position: relative;
+        text-align: center;
+    }
+    .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 1.8em;
+        width: 100%;
+        color: #fff;
+    }
+    .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+    }
+}
+
+.filter-star{
+    font-size:2.5em;
+}
+
+.intro{
+    ion-slide {
+        color: #fff;
+        background-color: transparent;
+    }
+    ion-slide img {
+        height: 70vh !important;
+        width: auto !important;
+    }
+    .swiper-pagination {
+        display: block !important;
+    }
+}
+
+.placeslist {
+    .scroll-content {
+        height: 100%
+    }
+    #map {
+        width: 100%;
+        height: 70%;
+        margin-top:-50px;
+        background:#eee;
+    }
+    #places {
+        height: 30%;
+        background:#fff;
+    }
+    ion-scroll {
+        white-space: nowrap;
+        height: 100%;
+    }
+    .item-col {
+        position:relative;
+        width:25%;
+        margin-right:15px;
+    }
+    ion-card {
+        position:absolute;
+        width:100%;
+        height:150px;
+        background-color:#444;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        // z-index: -100;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: #444;
+    }
+    .card-title {
+        position: relative;
+        z-index:1;
+        .name {
+            white-space: normal;
+        }
+        p {
+            color: #fff;
+            text-shadow:1px 1px 1px rgba(0,0,0,0.7)
+        }
+    }   
+}
+
+.placesdetails {
+    #map {
+        width: 100%;
+        height: 200px;
+        background:#eee;
+    }
+    .icon {
+        font-size:30px;
+    }
+    .icon-min {
+        font-size:16px;
+    }
+    .slider {
+        max-height:300px;
+        background:#f2f2f2
+    }
+    .swiper-pagination {
+        display: block !important;
+    }
+}
+
+.menu .no-border .item-inner{border:0 !important}
+
+#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    .logo{max-width:100px}
+}
+
+.feedback {
+    .icon{font-size:150px}
+}
+
+.error {
+    .icon-main {
+        font-size:40px;
+    }
+}
+
+.profile{
+    .photo{max-width:100px;background-color:#39f}
+}
