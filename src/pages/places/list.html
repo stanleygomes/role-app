@@ -1,0 +1,54 @@
+<ion-header>
+	<ion-navbar color="primary">
+		<ion-title>Resultados</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content class="placeslist">
+
+    <!--
+    <ion-fab bottom right>
+        <button ion-fab color="danger" (click)="openModal(ps)"><ion-icon name="search"></ion-icon></button>
+    </ion-fab>
+
+    <ion-segment padding color="primary" [(ngModel)]="tabs">
+        <ion-segment-button value="map">Mapa</ion-segment-button>
+        <ion-segment-button value="list">Lista</ion-segment-button>
+    </ion-segment>
+    -->
+
+    <div #map id="map"></div>
+
+    <div *ngIf="error" class="full-width margin-center padding-15 error">
+        <ion-icon name="bug" color="grey" class="full-width icon-main text-center margin-center"></ion-icon>
+        <p color="grey" class="full-width text-center margin-center">Tivemos um problema para buscar os dados.</p>
+        <div padding>
+            <button ion-button class="full-width" block color="primary" (click)="getPlaces()">TENTAR NOVAMENTE</button>
+        </div>
+    </div>
+
+    <div id="places">
+        <ion-scroll scrollX="true">
+            <ion-row>
+                <ion-col width-50 *ngFor="let place of places" class="item-col">
+                    <!-- <ion-card padding style="background-image: url(http://placehold.it/150x150)"> -->
+                    <ion-card (click)="openPage(details, {place_id : place.place_id})">
+                        <img class="image" [src]="place.photos && place.photos.length > 0 ? 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=' + place.photos[0].photo_reference + '&key=AIzaSyA99grH5GY84k41sg2HeVh4bSfyMk1lXEk' : 'assets/img/place-default.png' " alt="">
+                        <div class="card-title" padding>
+                            <p>
+                                <strong class="name">{{ place.name }}</strong>
+                            </p>
+                            <p>
+                                {{ (place.opening_hours ? place.opening_hours.open_now : '') == true ? 'Aberto' : 'Fechado' }}
+                            </p>
+                            <p *ngIf="place.rating">
+                                <strong>{{ place.rating }}</strong>
+                                <ion-icon name="star" color="yellow"></ion-icon>
+                            </p>
+                        </div>
+                    </ion-card>
+                </ion-col>
+            </ion-row>
+        </ion-scroll>
+    </div>
+</ion-content>

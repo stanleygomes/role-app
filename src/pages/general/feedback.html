@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-buttons left start>
+            <button ion-button icon-only menuToggle (click)="openMenu()">
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title>Feedback</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="feedback">
+	<ion-list padding *ngIf="showForm">
+		<ion-item class="margin-top-30">
+			<ion-input type="email" [(ngModel)]="email" placeholder="Seu email..."></ion-input>
+		</ion-item>
+		<ion-item class="margin-top-15">
+			<ion-textarea rows="6" [(ngModel)]="message" placeholder="Descreva seu feedback aqui..."></ion-textarea>
+		</ion-item>
+        <button ion-button large color="primary" block class="margin-top-30" (click)="send()">ENVIAR</button>
+	</ion-list>
+	<ion-list padding class="text-center" *ngIf="!showForm">
+		<ion-icon name="{{ sent ? 'checkmark-circle' : 'sad' }}" class="icon" color="{{ sent ? 'green' : 'danger' }}"></ion-icon>
+		<h3>{{ sent ? 'Feedback enviado com sucesso! Obrigado.' : 'Sinto muito, ocorreu um erro ao enviar seu feedback. Vamos tentar descobrir o motivo. Obrigado.' }}</h3>
+        <button ion-button color="primary" class="margin-top-15" (click)="showForm = true">ENVIAR NOVAMENTE</button>
+	</ion-list>
+</ion-content>

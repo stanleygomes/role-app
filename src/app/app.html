@@ -1,0 +1,43 @@
+<ion-menu [content]="pageapp">
+	<ion-content class="menu">
+		<ion-list (click)="openPageLogin()">
+			<ion-item color="primary" class="no-border">
+				<ion-avatar item-left>
+					<img src="{{ user.imageUrl && user.imageUrl != '' ? user.imageUrl : 'assets/img/profile-default.png' }}" class="border-white">
+				</ion-avatar>
+			</ion-item>
+			<ion-item color="primary" class="no-border">
+				<h1 left>{{ user.displayName  ? user.displayName : 'Anônimo' }}</h1>
+				<p left>{{ user.email ? user.email : 'Efetue o login' }}</p>
+			</ion-item>
+		</ion-list>
+		<ion-list>
+			<ion-item (click)="openRootPage(home)">
+				<ion-icon name="home" color="grey" item-left></ion-icon>
+				Locais
+			</ion-item>
+			<ion-item (click)="openRootPage(profile)">
+				<ion-icon name="contact" color="grey" item-left></ion-icon>
+				Meu Perfil
+			</ion-item>
+			<ion-item (click)="openRootPage(favorites)">
+				<ion-icon name="heart" color="grey" item-left></ion-icon>
+				Meus Favoritos
+			</ion-item>
+			<ion-item (click)="openRootPage(feedback)">
+				<ion-icon name="chatboxes" color="grey" item-left></ion-icon>
+				Enviar Feedback
+			</ion-item>
+			<ion-item (click)="openRootPage(about)">
+				<ion-icon name="information-circle" color="grey" item-left></ion-icon>
+				Sobre
+			</ion-item>
+			<ion-item (click)="GoogleLogout()">
+				<ion-icon name="log-out" color="grey" item-left></ion-icon>
+				Sair
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-menu>
+
+<ion-nav #pageapp [root]="rootPage"></ion-nav>

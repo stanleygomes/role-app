@@ -1,0 +1,35 @@
+<ion-slides pager class="intro" [options]="slideOptions">
+
+    <video autoplay muted loop poster="" id="bgvid">
+        <source src="assets/video/intro.mp4" type="video/mp4">
+    </video>
+
+    <ion-slide>
+        <ion-row>
+            <ion-col>
+                <h1>Novidades, experiências, viagens, diversão...</h1>
+                <h3>Tudo em um só lugar!</h3>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <button ion-button color="primary" (click)="openPage(home)">COMECE AGORA</button>
+            </ion-col>
+        </ion-row>
+    </ion-slide>
+    <!--
+    <ion-slide>
+        <ion-row>
+            <ion-col>
+                <h1>OS MELHORES LOCAIS</h1>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <button ion-button color="light" (click)="openPage(home)">INICIAR</button>
+            </ion-col>
+        </ion-row>
+    </ion-slide>
+    -->
+
+</ion-slides>

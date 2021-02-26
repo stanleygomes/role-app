@@ -1,0 +1,328 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "12",
+            "short_name" : "12",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "Rua Segismundo Mendes",
+            "short_name" : "R. Segismundo Mendes",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "Centro",
+            "short_name" : "Centro",
+            "types" : [ "sublocality_level_1", "sublocality", "political" ]
+         },
+         {
+            "long_name" : "Uberaba",
+            "short_name" : "Uberaba",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Uberaba",
+            "short_name" : "Uberaba",
+            "types" : [ "administrative_area_level_2", "political" ]
+         },
+         {
+            "long_name" : "Minas Gerais",
+            "short_name" : "MG",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "Brasil",
+            "short_name" : "BR",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "38010-140",
+            "short_name" : "38010-140",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003eR. Segismundo Mendes, 12\u003c/span\u003e - \u003cspan class=\"extended-address\"\u003eCentro\u003c/span\u003e, \u003cspan class=\"locality\"\u003eUberaba\u003c/span\u003e - \u003cspan class=\"region\"\u003eMG\u003c/span\u003e, \u003cspan class=\"postal-code\"\u003e38010-140\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eBrasil\u003c/span\u003e",
+      "formatted_address" : "R. Segismundo Mendes, 12 - Centro, Uberaba - MG, 38010-140, Brasil",
+      "formatted_phone_number" : "(34) 3332-2940",
+      "geometry" : {
+         "location" : {
+            "lat" : -19.747473,
+            "lng" : -47.93232699999999
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : -19.7474422,
+               "lng" : -47.9322187
+            },
+            "southwest" : {
+               "lat" : -19.74756539999999,
+               "lng" : -47.93236309999999
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+      "id" : "ea8198d5bebf58cbf6d16b2318b14152fa6a0fb5",
+      "international_phone_number" : "+55 34 3332-2940",
+      "name" : "Cascata Para Você",
+      "opening_hours" : {
+         "open_now" : false,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 0,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 0,
+                  "time" : "1400"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0700"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0700"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0700"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0700"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0700"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "2100"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "0700"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "segunda-feira: 07:00 – 21:00",
+            "terça-feira: 07:00 – 21:00",
+            "quarta-feira: 07:00 – 21:00",
+            "quinta-feira: 07:00 – 21:00",
+            "sexta-feira: 07:00 – 21:00",
+            "sábado: 07:00 – 21:00",
+            "domingo: 14:00 – 21:00"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 640,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111014338025996253149/photos\"\u003eCascata Para Você\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAMAc0VKLeuivSFCI731kbufDVzp79Z-0Cyv4j07fZa5gmoUq5enYSnr2RVZPhYwEb8fBIj8ujzunalW2z4MNgM4DMLHR7dETv6fiuORDANEQaq5c_FiwVuSvBLV8fTN1P9W1d4AK6O8Qvzf1_GiXFbADZHsT6FuVgq7596p02NNiEhAQ9xMRr3vjukYg0qP2NXZEGhSgfQJjBpqFYlI72Mh2N7dbPEKguw",
+            "width" : 640
+         },
+         {
+            "height" : 315,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111014338025996253149/photos\"\u003eCascata Para Você\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAHZLIqBbr9Ncz4BBjzYfiuLx1IaSHt4ys53f1-fyp84KZTex4_3oIB7IsS-yeCaw8btOVW7PQqAhNyYu9CWz2jMLzuwxYkD7RmSauaLdjU6jDIYTSW-TXxPT1i4d5SR8X--q32W7u2u9q-3s8UCBgYVM95Kb2nbs7AXlB377NwnKEhD4czM-WeJrznEA9hoxPn7QGhS1ZmfngjK_5II34GJPCCArdHCR5g",
+            "width" : 851
+         },
+         {
+            "height" : 640,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111014338025996253149/photos\"\u003eCascata Para Você\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAPMlSDmfIorTOyjWe4Vrviz5FDr3JxsoxyWyr-B7WNNY8lpEXFv6Cc6XqVftmbZZ-L703JlZPwsQT4uvksWX350HZGKvL_pKs9-DAlPGVHx0DeEGyRAtwxATOvskSqLJlH814puxD6ZL4Dx6ejv2p9AqLBuSaIIg7cYt4mI1Mxm_EhCVmgCcuoJYuIlBFj-XX43BGhRacuNaAwnCn4ckAFlrDLxDNMqI0A",
+            "width" : 640
+         },
+         {
+            "height" : 5312,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110594895130284937393/photos\"\u003eMarcelo Nascimento\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAACeJtxp0JrCtQOENyysAUnC4QPrpUji5peIvoosSMOUCZfkem6VZ9sYk7E_Q54sVyBvF0O7uIuqtR4eMVz8iHAVrGEHSlDoiERn-jnJVfGXFmiDkYUaeQYKRz5F8OsLLYfzjfbvkLRnUPwQzrVa-SLMt5136xn86ZkHp7eaZVlJGEhBrxMOi1gj9_RxSJca2EO0kGhSJmxWOVwelOTklB9sFt4JTZkfmHA",
+            "width" : 2988
+         },
+         {
+            "height" : 3264,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110137189041237377126/photos\"\u003eigor vantuil\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAN0kHddgVe7ykCkZ08Gzupn6KNupmGrzhtsWzugZ59yrdVZMRZciYzoYVs38E3xeAygVm1H5J0G-G4dj0kR3Nvyax1LUyWj68UgLr6LZKp4Zyxu0kHJRdbd2lJEosh4oYLgdenyauPu2C50ZcTQxUVAe3sPNsnqu3wJ1jUXup6ZPEhCECuBx7ijRphGQUcpd2yh3GhRLdXQCldtWHcYG-lMiqazyq2Y08Q",
+            "width" : 1836
+         },
+         {
+            "height" : 4128,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/101497315064640676786/photos\"\u003eKamila Ferreira\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAFbxBCnHaNblYkXayM3iOb9yHDjHnBdRefcjtb-LCPXXPMs0n-s2y5p1KNApUojivvxgmLUvInJ1YD2ROPRunVfvBfQoPC8majkANDp3qV5hT51HLdHtfmm5sqZUtUN0ADXM7Ta0zVthsYlhGJJQFiU8KQaGXz0mrZy7xLYOJ6BWEhBqoU9Bu4eNq7c_YCTtuQG8GhQJTAvk4WGcA6OcNEhLDN9e1GTTjA",
+            "width" : 3096
+         },
+         {
+            "height" : 960,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111014338025996253149/photos\"\u003eCascata Para Você\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAEerwEHdMNTAW6r6qX2dQDJxyjA0bqIZ22PcySvUpVUgqzXQ6Ua11yTAQbcGFYxmQmqH_2ywIa6XmErVVtNyKOP1R4y0kE-Aa1CAWXa1YRsPR1bgeewKQu4ci5GceAtbbwdGmSNfYeG-d6oezWngoCa6g74bCShih5clEy2yuEDOEhB-D1UMaNRbfoiFIhW5Xa5GGhRbG7AMbrXp-0VoT77x57ZAnMdZ1g",
+            "width" : 960
+         },
+         {
+            "height" : 640,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111014338025996253149/photos\"\u003eCascata Para Você\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAK_F4uQCWYcXRJCManoJQ2Lh_F96ibArfivyCus3UX95ZRNsWVef1RusaMZNImCipf3hcK-ECU8_revj9Q1FkurIYEmeEXYJMdLh6j_i30Zt4vu1kWlgDCIFzZN8g6VvSfOiWhw0d6jjrksXkHR3dErjbXApLHH53SdrFQ_CuPSIEhDx_Ni1I0zWoZon37vUigHrGhTIUtHjb5THym6jv_xE-8m3lZsvvw",
+            "width" : 640
+         },
+         {
+            "height" : 5248,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/117744619953336984790/photos\"\u003eRafael Villanova\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAABXzGCuy-S9AnQtwQ8BbW1VN4M8rPVVdwEWom7KudyUgtQbtjD8OTuF8ETNCGjgLMFhie-kDZVWHZxU6GIpjRk8201Ke9Qu0SYHj-tjmB57meKdfcmjXXhqAqjiV2MimHUc0dWxvkhfr3thSQE4JGDW8EUumOs3tmpGvKSCZvacyEhD6pPWUtp_ziFPW6eiBg5rFGhSgzFi_9zDD9JbF30e0YyGhLVTu3A",
+            "width" : 2952
+         },
+         {
+            "height" : 480,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/111014338025996253149/photos\"\u003eCascata Para Você\u003c/a\u003e"
+            ],
+            "photo_reference" : "CoQBdwAAAIF2ygX1XsArUYp53F8gD32mDtFeUuoBG167C7LkufXFH5TYfTGuPZSQbRuScd4CnarGjy6-W2Wyk1EdJNgjAfRutwsAKe6mZ2fd9MzQHCj6wNusc-KZzPtOvzvGRfZsq-pL6BSMZQvtxo5dpjiIhKxsOoLy9WRm1Ar7G7nPMMhYEhAcE9Xao_C4RXe68UQkVFIsGhR4efYHd3CHNM44QNZAmhzrBvpOxg",
+            "width" : 480
+         }
+      ],
+      "place_id" : "ChIJ66bhWzHQupQR4agHpj6Qv5I",
+      "rating" : 4.6,
+      "reference" : "CmRSAAAADRMdB0vZBLBBRXgk7Id7_lv_zVjXmCv_4CF8ZI1YAedaCbq7QUT1DgeDk7q2Z8ya8gLs4zF0WwAjwxH3Fflr0HPjW0xgI5E9VDA4NPAhcOKQtP5F25Z3uqRUe60cbhYWEhCqOAaxnsUywzkJVY_R_SoZGhTG39XnPqJ2H7AzPn2uNY0KbbvgoA",
+      "reviews" : [
+         {
+            "aspects" : [
+               {
+                  "rating" : 2,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "André Gregório",
+            "author_url" : "https://www.google.com/maps/contrib/101715265709690828168/reviews",
+            "language" : "pt-BR",
+            "profile_photo_url" : "//lh5.googleusercontent.com/-hNskJzAsEMY/AAAAAAAAAAI/AAAAAAAAu9M/jnWDrg1mVxc/s128/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "na última semana",
+            "text" : "Produtos de excelente qualidade, mas o atendimento pode melhorar MUITO. É frequente entrar e sequer ser visto pelos funcionários, apesar de serem simáticos e atenciosos.",
+            "time" : 1483986191
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "Bruno Henrique",
+            "author_url" : "https://www.google.com/maps/contrib/110263422293803840703/reviews",
+            "language" : "pt-BR",
+            "profile_photo_url" : "//lh3.googleusercontent.com/-KM-xLQJTg80/AAAAAAAAAAI/AAAAAAAAACs/wHRmlriWyZg/s128/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "2 meses atrás",
+            "text" : "Melhor restaurante no centroda cidade. Se não dá pra ir almoçar em casa lá e o lugar certo por conforto, ambiente e sabor ",
+            "time" : 1477146105
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 2,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "Leandro Uchiha",
+            "author_url" : "https://www.google.com/maps/contrib/118287970199497826052/reviews",
+            "language" : "pt-BR",
+            "profile_photo_url" : "//lh5.googleusercontent.com/-WthZNZ6E6io/AAAAAAAAAAI/AAAAAAAAEEg/SKRsn6Y1ULQ/s128/photo.jpg",
+            "rating" : 4,
+            "relative_time_description" : "um mês atrás",
+            "text" : "Sorvete muito bom!",
+            "time" : 1480423463
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "Lucas Lima",
+            "author_url" : "https://www.google.com/maps/contrib/117054067522563902607/reviews",
+            "language" : "pt-BR",
+            "profile_photo_url" : "//lh6.googleusercontent.com/-oy1d4T0NNDc/AAAAAAAAAAI/AAAAAAAAEA8/Bpli0BRUOts/s128/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "3 meses atrás",
+            "text" : "Excelente almoço semanal e pra quem gosta, tem o melhor açaí de Uberaba.",
+            "time" : 1476313948
+         },
+         {
+            "aspects" : [
+               {
+                  "rating" : 3,
+                  "type" : "overall"
+               }
+            ],
+            "author_name" : "Zacarias Junior",
+            "author_url" : "https://www.google.com/maps/contrib/100648913031145000422/reviews",
+            "language" : "pt-BR",
+            "profile_photo_url" : "//lh6.googleusercontent.com/-KMtpGLwn0ZU/AAAAAAAAAAI/AAAAAAAADnI/uXyq1EiZojU/s128/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "2 semanas atrás",
+            "text" : "Melhor sorvete Ever!",
+            "time" : 1483133873
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "restaurant", "food", "store", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=10574329048837105889",
+      "utc_offset" : -120,
+      "vicinity" : "Rua Segismundo Mendes, 12 - Centro, Uberaba",
+      "website" : "http://www.cascatasorveteria.com.br/"
+   },
+   "status" : "OK"
+}

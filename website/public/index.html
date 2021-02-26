@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <title>Página inicial - Rolê</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-language" content="pt-br" />
+
+    <meta name="theme-color" content="#2196F3">
+    <meta name="msapplication-navbutton-color" content="#2196F3">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2196F3">
+
+    <meta name="author" content="Stanley" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="follow" />
+    <meta name="reply-to" content="feedback@roleapp.xyz" />
+    <meta name="generator" content="NIPVP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
+    <meta name="google-site-verification" content="" />
+
+    <link rel="shortcut icon" href="img/logo-favicon.png" type="image/gif" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/general.css" type="text/css" />
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="full-width text-center main">
+        <div class="full-width home">
+            <img src="img/logo-header.png" class="logo" />
+            <div class="container">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-sm-6">
+                        <div class="full-width app-screens">
+                            <img src="img/app.png" class="app" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 xs-text-center text-left">
+                        <h1 class="title">Divirta-se</h1>
+                        <h3>Novidades, experiências, viagens, diversão. Tudo em um só lugar.</h3>
+                        <a href="javascript:void(0)" target="_blank">
+                            <img src="img/btn-download.png" class="btn-download" id="gotoapp" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="full-width text-center footer">
+        <div class="container">
+            <div class="full-width signature">
+                <div class="col-sm-12 xs-text-center">
+                    <div class="full-width copy">&reg; 2017 <strong>Rolê</strong>. Todos os direitos reservados.</div>
+                    <div class="full-width copy">
+                        <a href="privacy.html">Privacidade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-89741554-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/myforms.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#gotoapp").click(function () {
+                ga('send', 'event', 'Clicks', 'Download', 'Home');
+                window.open(
+                    'https://play.google.com/store/apps/details?id=com.ionicframework.keru847801',
+                    '_blank');
+            });
+
+            $('[data-toggle="popover"]').popover();
+            $('[data-toggle="tooltip"]').tooltip();
+
+            var MaskBehavior = function (val) {
+                    return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+                },
+                spOptions = {
+                    onKeyPress: function (val, e, field, options) {
+                        field.mask(MaskBehavior.apply({}, arguments), options);
+                    }
+                };
+
+            $(".validar").ValidateMe({
+                shake: false
+            });
+
+            $('.maskphone').mask(MaskBehavior, spOptions);
+            $('.masktime').mask('00:00');
+            $('.maskdate').mask('00/00/0000');
+            $('.maskzipcode').mask('00000-000');
+            $('.maskcpf').mask('000.000.000-00', {
+                reverse: true
+            });
+            $('.maskcnpj').mask('00.000.000/0000-00', {
+                reverse: true
+            });
+            $('.maskmoney').mask('000.000.000.000.000,00', {
+                reverse: true
+            });
+            $('.maskplaque').mask('AAA-0000');
+
+            $(".goto").click(function (e) {
+                e.preventDefault();
+                var l = $(this).attr("href");
+                $('html,body').animate({
+                    scrollTop: $(l).offset().top - 50
+                }, 1000);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

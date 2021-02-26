@@ -1,0 +1,36 @@
+<ion-header>
+	<ion-navbar color="primary">
+        <ion-buttons left start>
+            <button ion-button icon-only menuToggle (click)="openMenu()">
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+		<ion-title>Favoritos</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-searchbar *ngIf="search" [showCancelButton]="true" (ionInput)="getItems($event)" (ionCancel)="switchSearch()"></ion-searchbar>
+
+    <div *ngIf="error" class="full-width margin-center padding-15 error">
+        <ion-icon name="key" color="grey" class="full-width icon-main text-center margin-center"></ion-icon>
+        <p color="grey" class="full-width text-center margin-center" padding>Você precisa efetuar o login para poder visualizar seu perfil.</p>
+        <div padding>
+            <button ion-button class="full-width" block color="primary" (click)="openPage(login)">EFETUAR LOGIN</button>
+        </div>
+    </div>
+
+    <ion-list *ngIf="!error">
+        <ion-item *ngFor="let favorite of favorites | async" (click)="openPage(placeDetails, {place_id : favorite.id})" (press)="delete(favorite.id)">
+            <ion-thumbnail item-left>
+                <img *ngIf="favorite.picture" src="{{ 'https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=' + favorite.picture + '&key=AIzaSyA99grH5GY84k41sg2HeVh4bSfyMk1lXEk' }}"/>
+                <img *ngIf="!favorite.picture" src="assets/img/place-default.png"/>
+            </ion-thumbnail>
+            <h2>{{ favorite.name | json }}</h2>
+            <p>{{ favorite.phone | json }}</p>
+            <button ion-button clear item-right>ver</button>
+        </ion-item>
+    </ion-list>
+
+</ion-content>

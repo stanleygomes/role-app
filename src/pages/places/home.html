@@ -1,0 +1,33 @@
+<ion-header>
+	<ion-navbar color="primary">
+        <ion-buttons left start>
+            <button ion-button icon-only menuToggle (click)="openMenu()">
+                <ion-icon name="menu"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title>Experiências</ion-title>
+	</ion-navbar>
+    <ion-toolbar color="primary" class="no-border">
+        <ion-searchbar color="primary" [(ngModel)]="city" (click)="openModal(pc)" placeholder="Sua localização"></ion-searchbar>
+    </ion-toolbar>
+</ion-header>
+<ion-content class="home card-background-page">
+
+    <!--
+    <ion-fab bottom right>
+        <button ion-fab color="danger" (click)="openModal(ps)"><ion-icon name="search"></ion-icon></button>
+    </ion-fab>
+
+    <ion-item color="primary" class="no-border" *ngIf="city">
+        <h2><strong>{{ city }}</strong></h2>
+        <p>Sua localização</p>
+        <ion-icon name="create" item-right (click)=""></ion-icon>
+    </ion-item>
+    -->
+
+	<ion-card *ngFor="let category of categories" (click)="openPage(pl, {types: category.subcategories})">
+		<img src="assets/img/home-{{ category.image }}.jpg"/>
+		<div class="card-title">{{ category.name }}</div>
+	</ion-card>
+
+</ion-content>

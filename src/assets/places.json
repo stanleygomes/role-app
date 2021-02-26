@@ -1,0 +1,698 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CtQCRgEAADKz2GBJPjEJWP_Quj2BO8_9rNXSP_PRU406LBKOmCYM7xEdjsXPx5o-LkTTWWGZCQEuqK-aJqkrDzzybFupdmGVe4SwCIXgpLUVm6jeKghoYArd57s3Y_RPoDeqOPsULbAYByewiU3J-Qy-qREf4iMxSMowxZZ-oDfzydhTHHffkYRGON3NpwPkKAjuz6NPBoPsf0vaZK0rRMtIOVDPtLYXZ9pMj0ZNZFzk-FB3ClEXQElXWVANiYN5ORIuLhPx2OsIgaL-5VxY093O2YcHLb60XpsMi_KxESAFs6WEqOCruEZhsuJzOp-cYGTykC0jhrxPRqJmQY8NbX-J_UUsuLZEFPooaMhzWy1JfYnwenPsGAiYSrVLbDX2IUGTAgzMFrCTt58ANadN2JRq-XCk49oXwNVrJveV_nwcT5u7ZDtGa1T5ZIH01CDoWHhYQnsq3BIQ_Q8prL3RuwvJta2i7x7KahoUMfrKh6M4ErbJLbq0zKBBi53r66Y",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7473668,
+               "lng" : -47.93915399999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.699702,
+                  "lng" : -47.864205
+               },
+               "southwest" : {
+                  "lat" : -19.8022549,
+                  "lng" : -48.0057195
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "5d2475734c840b086d69b54c42508ee01f3dd2da",
+         "name" : "Uberaba",
+         "photos" : [
+            {
+               "height" : 609,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114297491354334961750/photos\"\u003eHildo Caetano Barbosa\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAG487OaGLJwNwBttb7Ivij7GQ_WKyPU2Ab-0GF93BAbw25DmBgRzN6cwWuC7kNc0JHMs4Ob8vzcK928qxQIGX--8-nUADcanvqH95FIocriFfT-FJOeWdp88KitWZk_YKLaMC-ZrndjtHrsv3qGQIf2Jcejdt2m4uFW4ER3Ty_6GEhDllAsAPVhwNqDtmBE5usyCGhTKArg0PGUi2eZTcP31Bq_SoiutKw",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJN3ZiYjHQupQRXOH4sO3Zg44",
+         "reference" : "CmRbAAAAalbYYcgBvdYcyD9yHxR7mkolvQe-wiafZqmHpJ8TBaUMd9L4ZgtzWtnKrc2HOx0ZnUJyaX0UWgN3cBYVJWzzaIhH8TM-M84sUcnX-pm7qiBOj95LICtBajTzRz2ZsgAsEhCc1VRsN9ZFMVjpNlxWprTTGhQj4_rExlohEM3qo_Xc2m-m7PT1-w",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7611922,
+               "lng" : -47.9352396
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.7611885,
+                  "lng" : -47.9351919
+               },
+               "southwest" : {
+                  "lat" : -19.76120329999999,
+                  "lng" : -47.9353827
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5808ea7955abb104f1d31d355aea73996029de23",
+         "name" : "Consórcio Embracon Uberaba",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109555874472990108778/photos\"\u003eConsórcio Embracon Uberaba\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAA2i5PZdjoZzJI1WiC0bTU7uSk_pwHVA-n9uxqh2hjtbti4y_6EO82omTwgCV3uQFzQjfxhsVwCnmaInzbuYnNm1HvMsKj2VIjYSXsA0SKZEwsTuEY7j7AhM-A1M3JYxn3yp7dAy5oY1aJ-UsY7b4xF-lQD3YhtzQbWUjnv_KrNaEhCuCyQ7Jud9OG3Wz1BXb5BGGhQIQ7QC7IwWVBTgdC3WLzq6nWTtnA",
+               "width" : 920
+            }
+         ],
+         "place_id" : "ChIJjaYMczzQupQRQzY6O2b8fI4",
+         "reference" : "CmRSAAAAXpNdfjhEmxELeUh6fwrBeD4J4WBTFGI2KoQHxPR_hHxti3nlPxD1FD-cRuNlkQ0w5R3LFS6y_FoNBol8STOFwjX_if4sTlchkTMS_Dz55RqpYPHvQ-E_e0peiqAmJWf4EhDLtNnycGAkrZTlsmrzEb58GhSp_S9eH2UYYXtj8eBHgGxtem3Riw",
+         "scope" : "GOOGLE",
+         "types" : [ "finance", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1261 - Centro, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7616607,
+               "lng" : -47.9355707
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.7616505,
+                  "lng" : -47.93531974999998
+               },
+               "southwest" : {
+                  "lat" : -19.7616641,
+                  "lng" : -47.93565435000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a2db1024d8e69833c3d06bc48fb347b7cefaaa86",
+         "name" : "Auto Posto Oscar",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105098241992881186821/photos\"\u003eFefs Pires\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAK4DS47b3iRuFHuFJJXwklxS3mH2GJs1ijkPUJNIDRns6oL19XNO8My-kTN7tds2vKtOeYIwHlYZ_noO9yrQG6v7VYylHxxy0eZC6oW_7_iX_6VY4UJ6vu99HnYMKHd9Sf5v0paW25hxBk-XV3KR6gylD7STrUFULSfjcS762RyTEhD6OTATGgv8eb8IcjzC7OsVGhTiufG4aUAWsgQbpQjAHnhOLqivag",
+               "width" : 2160
+            }
+         ],
+         "place_id" : "ChIJJee_bDzQupQRej3ggPQSTgM",
+         "reference" : "CmRRAAAAGs5GzxxvcL4IPPMozn61ITv2qgOSZY6nZWkSEyCpz6jXJyndEgsfiL1s8QQ-kGgH94m6ULcRHwCOpEOn27aC-kuypVYqRFBD36EHl6oWr94GPc_Nk7WItJXDDYd_fGw7EhD8iz84QRG0b-h9AP2haRjCGhTMKPrqEToES8Ea1VCIeEua9cMKLg",
+         "scope" : "GOOGLE",
+         "types" : [ "gas_station", "car_repair", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1330 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7611069,
+               "lng" : -47.9395049
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.7602849,
+                  "lng" : -47.93928425
+               },
+               "southwest" : {
+                  "lat" : -19.7613809,
+                  "lng" : -47.93957844999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6aa588ca4d2a1d53ea8071001abb6060c34c7f28",
+         "name" : "TECNOSAT - Soluções em Topografia",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109041149968035675946/photos\"\u003eTECNOSAT - Soluções em Topografia\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAI0_ZMRfd2XlFZDkzvRjvaV42Lc3NM_cpmiuyC-R3JuTvYFflv-xqD-xzHSWC0uwd-999csaA0d4o3AGqyyQY0_wypwwDQGdlUzTK29lkyJgYgnT3fExX2AbJhIWCaugTxvX5MR5teTn8rr6Tx48YGllH_9m4zNp8sN2mwjQ26Y7EhBbDZ9xGeMpRKjSlfyBMx3JGhSAHCzCKUVu11yfTf9fIfwYUTx_yg",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJp93Q0DjQupQRJdr_2G-3Hn4",
+         "reference" : "CmRRAAAATdnbVdPeXHtPp4fF0tj6c-edzImWlA-C_ilU7B6JF74hb2fjN_EG-dqTndjrdeo9OFMKOBPk6ZOWTwE9judDFNlb-RWBarrDMXJtAVwKStkr7jwhxYRPid1KwBuAG69aEhBxGc2Ozhmk06wxPopszUm5GhQYh6CmnjAzwAchpKXLLzXVymHuHg",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Capitão Manoel Prata, 1022 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7632953,
+               "lng" : -47.9368224
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76325810000001,
+                  "lng" : -47.93679555000001
+               },
+               "southwest" : {
+                  "lat" : -19.7634069,
+                  "lng" : -47.93690295
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "01cde4a1d66c21cd806ea50908adefc0df0ac94c",
+         "name" : "Coisitas de Sofia",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 636,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109341771234450782370/photos\"\u003eCoisitas de Sofia\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAAVEBhfIRodzRdzRodGiW4ulgSKPD0ZjVNSLX2BzAzbJ1-K02w11FMEOnTYAVjGl49NaeNsE__ePcbxe4lTDJJBI7skRfp2aDQhFIS828XerptwRGVGDliRa7-FlXAu00XmoxJxzKJUZvabKsxmyQRE5ygShEuFk3VDG7vjA9NDiEhBTyojZNqvSJuxG_oiwpvodGhT6iuGj_2ruLGRL7pl3RqWpft_dew",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJgQ5UhD7QupQR4eJ2M9LwUq0",
+         "reference" : "CmRSAAAAP6z33TywGt1KQT5SuQJfFSZ-SwpfmLPvBq4kPdgSPHLRebmO8qyc6lxhudnY-GZlrWRBeVxrowIYLVooJtS-QwHHxZbiIEhcjVZAYw-I6lXtfeTMD1yoorCYrY0Fu4XCEhBLLubX2cqcLwIJXGHYrDNGGhRrrWiHwTTGr_951Cr4Soqf2Os-0g",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Veríssimo, 1175, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7610035,
+               "lng" : -47.9355765
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76096819999999,
+                  "lng" : -47.93537864999999
+               },
+               "southwest" : {
+                  "lat" : -19.76110940000001,
+                  "lng" : -47.93564245
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+         "id" : "f4d88353836cbf7165975e1f34b9a037e0418c7d",
+         "name" : "Caixa",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJ6YLIFjzQupQRFGGvyzaK1IM",
+         "rating" : 2.6,
+         "reference" : "CmRSAAAAAbsiVPMyRDDysJ9Y8xo5WFxf5_2pwghldpRmb-ihByGb8xhFJmver23rsZRPNFDfqFcLSSPaNVyJ8b7p92Ihxjn-D0kUaLg5FDgt7g-bxos5tzTKxdhBZnrMkMBtyTI0EhDkgxn0O8jiCFi9tsd4Y2cfGhTh2G2wU56vOIlwEvPH-DYiPV9DCg",
+         "scope" : "GOOGLE",
+         "types" : [ "bank", "atm", "finance", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1270, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7610018,
+               "lng" : -47.93521399999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.760996,
+                  "lng" : -47.93514534999999
+               },
+               "southwest" : {
+                  "lat" : -19.7610192,
+                  "lng" : -47.93541995
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "93d62ef19ec5011c20f733281410ccf85303088e",
+         "name" : "Mercalar Fechaduras Portas e Ferragens",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116049899962264630894/photos\"\u003eMercalar Fechaduras Portas e Ferragens\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAI6Ser6_B0vB4eVGebuA1O4MbJwpTkch6We5bBIrNSuo98K6HbVQUgk4BZvd7vNFmXUqc9PI4fXbbeNBxiJKrdVLSaQf78HlFMCJZRdVfKWAvycLiFkboEvFlV3GaKlzBnIbOJ-vyTjvSG5S4Jsql1ieNum_kvuSLaZ9TnxgEDbbEhA-8G1ATFie4p49qOndDN6QGhTVviG8jr2MOdDBrKTyDv6HtC9F8Q",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJu4uA9TvQupQRyDtBBAtcvfE",
+         "reference" : "CmRSAAAAUdRDFo9BTzCy0hksXdpr8DrUqPx63oWNEeE5s61JXuUWJTjT_X9hrJ3EpvngREFKRgr0k1ryt81wj6r9v0Frp2Dkp8XAZUY8iK2Go9b5xull3lPBQyov6FSVvjA1xftYEhAgulleGCsRh5Zt9KW8-hptGhQtTwAHcyBeC4R9b0EJt1jqwB2AYQ",
+         "scope" : "GOOGLE",
+         "types" : [ "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1243, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7632442,
+               "lng" : -47.93636329999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76312285,
+                  "lng" : -47.93597315000001
+               },
+               "southwest" : {
+                  "lat" : -19.76360825,
+                  "lng" : -47.93649334999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "e463e43959d818b6a8a37665f0446bcbc19657e6",
+         "name" : "Irmãos Bretas Filhos e Cia",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111575231996567972012/photos\"\u003eRodrigo Crepalde\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAHf0vvpAguUC8Z70AbZMr5pocVSc-ziBj2z3It7E42P93owX2XvgrU3OpXNOFQBwseufml33ynZ-ALmW4CFt6i4D_s9gTj5XQGLXJ6IppV61DVAhoYAdN3tx2zMpShDP9tv0bufn-W3aQN8ox62nVJxZNq4AQlw0f3YyS8Go3raZEhAU8v6acdd32wRN-2jo5iOJGhSrTivWsTDv7Om5-38GS8TLDI9qxA",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJobmu2T3QupQRxaQYerLsM2U",
+         "rating" : 3.5,
+         "reference" : "CmRRAAAAfx3mHucvlnPFQv-m0p8nMJcA5PaE01mgy-H0BgFcp-5yzhCcA11jUBMFkoiEvfa-KGKhP5tfjfY4hdFLF5OWz_KeWCIYOuMPVADrfEtDQsJXiwlxcH71EX7NpdNkXUjKEhBV4A98Bv5C8i2crGg23g2ZGhSVsrJr0LrFm4APon1vxhrYd83Ycg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "grocery_or_supermarket",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1500 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7632016,
+               "lng" : -47.9363248
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76313184999999,
+                  "lng" : -47.9358769
+               },
+               "southwest" : {
+                  "lat" : -19.76341085,
+                  "lng" : -47.93647410000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+         "id" : "f2900670da9bb27e9aed10e47a8b18e79cda50ee",
+         "name" : "Banco24Horas",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJPeaYLDzQupQRSyDYCd-4DbY",
+         "reference" : "CmRSAAAAkTYbQd8TzeSch3cCFJntyfgmt8e-YNS_uLYZO46FZUPqJr02c6AD4uwe_5jRaALWT36FHehlz4t4c59mm_gK6J63YpBw5_vFiJD189MxEsPXf2kfKFVm8Ktzfeso9bZOEhBj31cR5JvIyyPBgpfp6seAGhRLAHEIlDow4d5rgGK69kqwjQib9Q",
+         "scope" : "GOOGLE",
+         "types" : [ "atm", "finance", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1550 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7643466,
+               "lng" : -47.936809
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76417665,
+                  "lng" : -47.93668090000001
+               },
+               "southwest" : {
+                  "lat" : -19.76440325,
+                  "lng" : -47.9368517
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "ba14ba99b6db7ec3014e2ea973ce0aa4ee69b2ff",
+         "name" : "Trivel Uberaba",
+         "place_id" : "ChIJ9zwQWTDQupQRgPiL57Wl0H4",
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAzRn_24g-bsnZorBu502VOVulwc8nqFFORy2iZufrowxm9qkBXqKukCanr_E2-R6nQCS_c067JzfDgyjT-fs_P3lP1uagbx3ZbNEbt0tOb8PcdLhi-5f31mqDsrU3lSh6EhAasOd-wcZXNud-f3eaeByGGhRpZHS85nIknnsjbkX8IbD1Qb05RQ",
+         "scope" : "GOOGLE",
+         "types" : [ "car_dealer", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1656 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7638573,
+               "lng" : -47.9358701
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.7636602,
+                  "lng" : -47.93573485
+               },
+               "southwest" : {
+                  "lat" : -19.76392299999999,
+                  "lng" : -47.93627584999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+         "id" : "f8ccf09d6bfb83af2bf10acca593a8accb5a7571",
+         "name" : "Secretaria Municipal de Saude",
+         "place_id" : "ChIJYdOYxT3QupQRF2eia0YT1jU",
+         "reference" : "CmRRAAAABQz1Bo27XuvdLTsEF4rMnCxzMLUJdcSEh2mBTVuetQHeWKd4II-dRlYOBax7fSukJZaX9UXwdJ1skq6GVzIPBDl9ovW8rtU1qIyXognNeaizzGGsPFNhEtT6B1d0kBs3EhDSaCQm_oU8M8AC3wNmRDIrGhRjvOiDlmlP6WQbciZgegmZZhLzdw",
+         "scope" : "GOOGLE",
+         "types" : [ "local_government_office", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1538 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.764592,
+               "lng" : -47.9366015
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76456845,
+                  "lng" : -47.9365318
+               },
+               "southwest" : {
+                  "lat" : -19.76463265000001,
+                  "lng" : -47.93664699999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+         "id" : "113aa372155e107855d6097082a714161b092b52",
+         "name" : "Uberaba Prefeitura",
+         "place_id" : "ChIJMb7h3z3QupQRY5ZSqQHCuQU",
+         "reference" : "CmRRAAAAaOfvb1ZJgZiUcZiHD5GpGVhJkq_Rg7Eq9BjZriWUiQJl6YD62ckBEshWBB_nUEPdswC_aDxeOTakVwUaIbDKq17Wx5ZOhu5GIesKdJ7c2AEjC8NDg2kal8oBpCN2zXTMEhCRQxS-wJXq0dsd5cjyq9XLGhQriPbZulbnLuUQbMPMjFfqYh34dw",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1633 - Centro, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7623785,
+               "lng" : -47.9381298
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.7623215,
+                  "lng" : -47.93808379999999
+               },
+               "southwest" : {
+                  "lat" : -19.7623975,
+                  "lng" : -47.93826780000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2816acc0fd8c398992db691e7213d48cf852c9e8",
+         "name" : "Barbearia Tudo Azul",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1071,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113175844384253169717/photos\"\u003eBarbearia Tudo Azul\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAABDq3I-yZLjPosKcEGubY-9oOHk6wYX0hfSerJRDetkm3uDQQUKGvacrogj9LOZJQnOfB8og727WNnWNalnfOYl-2USiYi0yUQ4d7n63qMVQcpt4Eyjk4Bgo3iHE_BtIwDILpzMmjAQ9jzWO4cBGkGfCo4nf0Tm3sGkw6peSc4BBEhBQZkCgLmczYTYfEl5lhmtOGhSwurUbfJoGXSzLQUCPEnuJ1VsGGw",
+               "width" : 1071
+            }
+         ],
+         "place_id" : "ChIJF8YmtT7QupQRzN1gXKganyw",
+         "reference" : "CmRRAAAAJ4GFWKvTRDtk_K3k8BBWakUYyL9uB176KE4D36IfEKhTV2oBC5fxE-RcxdEpIDJP4o1RnsH-776byFjm3YFBdfuv-0eFfejBIzF1wzuC5yGojHnL8WwvS4kd61adwS3nEhB68cjJTeWMLt4HZOlj38lAGhQ-UqwqGxhSOLnaTGCn3SgpNc4GZQ",
+         "scope" : "GOOGLE",
+         "types" : [ "hair_care", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Bernardo Rossi, 451 - Bom Retiro, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7644203,
+               "lng" : -47.9383196
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76438765,
+                  "lng" : -47.9382741
+               },
+               "southwest" : {
+                  "lat" : -19.76451825,
+                  "lng" : -47.9384561
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "d0e6cd716d3d35f64068d8550e0cd14e2ff8c6e8",
+         "name" : "Indústria e Comércio de Doces Lourraine",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 941,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100305608099735980976/photos\"\u003eLOURRAINE MAREGA ANDRADE\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKPSDe65hjmTOXHOqXiatqOtrkL4gJ2xFbuor4pEM1rEAMmXtns0Gzpbjb1jsX6bTOf5LI4iW9VpxpnoX90oHfg2Bbw5ied9bt0Eu9HDaL0JSS_f1chdePjvNGMYY0Zp8miQrzpemi_eaRNIdax0TwJM8k_akv00W8lsFyb-KzH6EhB3Gu9S8wLDs69Z-nwRyUPrGhT0tM-f87Elkkk7kZF_XgRhtoAjgg",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJVT6JQT7QupQRZ2s7TY0qR98",
+         "reference" : "CmRSAAAA3O4l952AqmiL1yES1UXiWfy5IbUiijKoOcmh56QXyYtI8K6M1QHb5_bBu-Mi6KhrBREzDTG-QtKIdDB3GajvHZfYNi2E4KnIu4qX_z4tBkcq7HdJhUNTrmxZC9-1Ey3gEhBp35t0g375jI50Iu0tGhRSGhRJV2MbEF2wDG2FjieHAzoAJJextg",
+         "scope" : "GOOGLE",
+         "types" : [ "food", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Nova Ponte, 381 - Bom Retiro, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7651916,
+               "lng" : -47.937066
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76517185,
+                  "lng" : -47.93698619999999
+               },
+               "southwest" : {
+                  "lat" : -19.76524244999999,
+                  "lng" : -47.93709699999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "9122303a0dbbf2f44a49804749cd90956006e87e",
+         "name" : "Shopping Veículos",
+         "place_id" : "ChIJHWUeDz7QupQRxGhYeCCiXyg",
+         "reference" : "CmRRAAAAaxXig_uY0_EbJLjUX-KDKR4GypGQAE_7TXeTwZqFGf2huz2CGh24Zx-05bOOdo4WTsZUibcuH15bDw1HAuzqllT0oFLwlj31Fn6Dt1JewG7j7GxtpX9Psr-pw_tsgh3IEhAyfZfOAmnRoYZ83b7GHZB_GhSTmFTiucaqGmH7GqNctoIPd3LFzw",
+         "scope" : "GOOGLE",
+         "types" : [ "car_dealer", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7616625,
+               "lng" : -47.9362232
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.76165895,
+                  "lng" : -47.93611985
+               },
+               "southwest" : {
+                  "lat" : -19.76167315,
+                  "lng" : -47.93625765
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6b5a0b4cb8fe46a6183ab06ab932502d3b130786",
+         "name" : "Contabilidade Ailson Lombardi",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJrdkTBTzQupQRSqk4D2LC_QM",
+         "reference" : "CmRRAAAA3Ymxg4T-WE6CHkbPPeEbtxcwvWo76mhiEsPjTcdQLb6sHhdvuZp7xaXavDShNNq8uhe8OPXtmztwPZZA8b9evy2Js61a5wBKJL6l1Qyr6jpBvtdxjpeR1uxb3rHeReHVEhC6jtSd4eGMZotxoIYyqlWfGhRM9eYj-TU6xTC9ZJpGJzE4mMhBDw",
+         "scope" : "GOOGLE",
+         "types" : [ "accounting", "finance", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Vigário Silva, 1394 - Bom Retiro, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.761548,
+               "lng" : -47.937715
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.761422,
+                  "lng" : -47.9376442
+               },
+               "southwest" : {
+                  "lat" : -19.76158999999999,
+                  "lng" : -47.9377386
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "27b3d9cf3fb70c0d0bcd689b86aeda65860b34f5",
+         "name" : "Dalmaq Balanças",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1332,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111155823582212706179/photos\"\u003eDalmaq Balanças\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOEbE0ILc0X6bbJYKvsVopx6u7nY20VnGVeoWyhX4ieBpiYbrhCuD7mk2yuyRDo54Nwtv33uLzW9QDoIoSeEycjkkpE7eB6ardzTKKrobVrNah-u16ST1jVe4J678KbuNmmlwkI5RMBKPXjbDCmzlXKBUzklsAqgir2NZ962Bsf_EhAldrZ-lv2ar2WxEBGtFb5zGhQQODPH30oDZX9jHmjmFqdn2S-62g",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJid7fsz7QupQRjIG48VrGrMg",
+         "reference" : "CmRSAAAArEOmt4IsDOUakSCeJMSi__ipMYwqjtBhJONmNBeCYZx3H2hKujczdroDtx9FgpqVW9Ym3T9GfMoQ4K270Ow19Bnm4A0jajTCuFAkKt8jmP5aFoTw9fJ3e60HfMHzCQMCEhCMKwB67Cowgvt0IMIFZvmBGhQVhMyN4b3WW4uO-BW8h5WtIed-EQ",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Conceição das Alagoas, 1040 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7654037,
+               "lng" : -47.9369464
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.7652885,
+                  "lng" : -47.93687735
+               },
+               "southwest" : {
+                  "lat" : -19.76544209999999,
+                  "lng" : -47.93715354999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "c248e4594ff6f11a9a8c8b638e627edd3b4019db",
+         "name" : "GP Veículos",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 540,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105022494335347509275/photos\"\u003eGP Veículos\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAJ7dyWSsWqFhQu8AkQo4VAEFjkVqXuvcBTLC242_AabziQIf3qNTwUTVE7QyGk-o9IFHfXMdnqGDe9yeyvth4mqWRNTc-IHQl2oI0zHww-zhrpGRtfF29RWyULIZmH2eMigX7c1dF-7dr28YIJhRwviW9_JiyWnJ0mX-UzZEKCV_EhC_THiARoqmmb-7f5gcJEM7GhTDWXLHdrp7ibWit4zitbDE68dq3A",
+               "width" : 542
+            }
+         ],
+         "place_id" : "ChIJF7RGhhXQupQRgwuTccNGCio",
+         "reference" : "CmRRAAAAmSulpdwGJicYJI0MY3pU5k63WqTpbsjH30D2fABsI_jsvKnNMYqAYm9FA3BqJausDA3hTx9w3J8xAM87e7Ar1S8cYfZXaQJoplfvnc4vXLpGxHsWcbOq95GKtj5H2w81EhBaDO3mnlveydEdbaW36fxrGhRLinmRm0TPh2D8Rp3VU13lEor-hQ",
+         "scope" : "GOOGLE",
+         "types" : [ "car_dealer", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Avenida Guilherme Ferreira, 1775 - São Benedito, Uberaba"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7641285,
+               "lng" : -47.9391371
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5994953dcce139e4f0080a0c1777f7093e27b024",
+         "name" : "Canal Rural Produções",
+         "place_id" : "ChIJq6qqqj_QupQR8A-dqNTdDtM",
+         "reference" : "CmRSAAAAke8v3HgbhpZevqhkwN56bB_WCAUoNdBRY2h78k1ELRbQbMHE4IBEWKt_YUWZBsqW2q_FXXH4z2Dc8gGzco6N2ou1QfAJ6oYW9Fp1kH196Hp-PwT49oX8_opms81qQIB6EhDE815K-3ST2p2iooxImcZ0GhQXzEgDd8NcuA3pQLE4PYHrnt-0UA",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "Praca Vicentino Rodrigues Cunha 110"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -19.7669703,
+               "lng" : -47.9490349
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -19.7528015,
+                  "lng" : -47.9342874
+               },
+               "southwest" : {
+                  "lat" : -19.7705945,
+                  "lng" : -47.957815
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "4bbc8510a6f8307e9b7719637ef9a41921576214",
+         "name" : "São Benedito",
+         "photos" : [
+            {
+               "height" : 3006,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102606597027530291509/photos\"\u003eFabiano Andre da Silva\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAOEZooO2b5qcoTk20qtJ2ZbHT1AYARB7LPYKrTWp43bRvThHRhHzb3pMYj1CMbMd2rNSWzWtvdD6dz3S9XI4dc280lbhe4TXrXAUzHIb1yheXi9ng52tMYPZBMtpKWNYHRcHQfxfP7HoDrqCu849HzTc13E0ZfU5W_fhVuHl8LTsEhCH4QCJdRI-NcAqOpQsKHoYGhTL12U8FaJ-pyS9hnzR59kOCYEhog",
+               "width" : 5344
+            }
+         ],
+         "place_id" : "ChIJw7O5hUbQupQRWEFibfPAxGg",
+         "reference" : "CmRbAAAARHYXcdaUXUu5q-MM-fq8VYciqyCiry_euAHAqDgUYAL9ETkGe4GMaMXNuoUFkkDi1CSiGiY0T98xIBjeJzeINos-CLe_k-2Lz5AlhWGvqB2nobTwqpZAgRrQr8trtTc4EhCuR9jWgFYk0Y46p48alIlNGhR7avkRx5QkrydUQA4FN5YtGj7AHg",
+         "scope" : "GOOGLE",
+         "types" : [ "sublocality_level_1", "sublocality", "political" ],
+         "vicinity" : "São Benedito"
+      }
+   ],
+   "status" : "OK"
+}
